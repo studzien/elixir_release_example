@@ -1,0 +1,3 @@
+%{
+  "distillery": {:git, "https://github.com/studzien/distillery.git", "4fa0a9216ae7a9a611bcb4d1f90845ad29c9b319", [branch: "fix_appup_locating"]},
+}
