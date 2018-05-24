@@ -1,7 +1,7 @@
 .PHONY: appup deps rel
 
 appup:
-	MIX_ENV=prod mix release.gen.appup --app=elixir_releases_poc
+	MIX_ENV=prod mix release.gen.appup --app=releases
 
 deps:
 	mix deps.get
