@@ -8,6 +8,6 @@ defmodule ReleaseVersion do
   def init(_), do: {:ok, %{}}
 
   def handle_call(:get, _from, state) do
-    {:reply, "0.2.0", state}
+    {:reply, "0.3.0", state}
   end
 end
